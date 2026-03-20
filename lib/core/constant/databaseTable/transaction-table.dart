@@ -1,0 +1,12 @@
+const String transactionTable = "transactions";
+const String transactionId = "id";
+const String transactionCustomerId = "customer_id";
+const String transactionAlikom = "credit";
+const String transactionLakom = "debit";
+const String transactionDate = "transaction_date";
+const String transactionRemarks = "remarks";
+const String transactionCreatedAt = "created_at";
+const String transactionTransferCustomerId = "transfer_customer_id";
+const String transactionCurrencyCode = "currency_id";
+const String transactionDateUser = "date_transction";
+const String transactionTimeUser = "time_transction";
