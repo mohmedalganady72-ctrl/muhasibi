@@ -1,6 +1,6 @@
-import 'package:ccount/account-app.dart';
+import 'package:ccount/app/app.dart';
 import 'package:ccount/core/services/service.dart';
-import 'package:ccount/core/theme/themeMode/change-theme.dart';
+import 'package:ccount/core/theme/theme_mode/change_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -12,7 +12,7 @@ void main() async {
   Get.put(ChangeTheme());
 
   SystemChrome.setSystemUIOverlayStyle(
-    SystemUiOverlayStyle(
+    const SystemUiOverlayStyle(
       systemNavigationBarColor: Color.fromARGB(255, 255, 255, 255),
       systemNavigationBarIconBrightness: Brightness.dark,
     ),

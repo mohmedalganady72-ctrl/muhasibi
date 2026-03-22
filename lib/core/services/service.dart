@@ -1,4 +1,4 @@
-import 'package:ccount/core/theme/themeMode/change-theme.dart';
+import 'package:ccount/core/theme/theme_mode/change_theme.dart';
 
 import 'package:get/get.dart';
 
